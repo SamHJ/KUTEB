@@ -1,0 +1,538 @@
+[
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_courses_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/courses_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/menu_home_menu.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/menu/home_menu.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_exam_question.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_exam_question.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_home_slide.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_home_slide.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_help.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_pdfviewer.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_pdfviewer.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/raw_failure.mp3.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/raw/failure.mp3"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_history.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_history.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_profile_placeholder_white.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/profile_placeholder_white.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_success_img.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/success_img.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_help.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_help.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_notifications.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_close.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/anim_left_out.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/anim/left_out.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/anim_right_in.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/anim/right_in.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_default_profile.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/default_profile.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_edit_icon.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/edit_icon.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_link.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_link.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_exams.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_exams.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_notifs_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/notifs_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_upgrade_plans.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_upgrade_plans.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_internet_error.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/internet_error.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_exam.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_exam.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/menu_about_app_menu.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/menu/about_app_menu.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_course.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_course.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_update_image.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/update_image.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_login.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/raw_success.mp3.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/raw/success.mp3"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_image.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_image.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_bg_overlay.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/bg_overlay.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_e_learning.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/e_learning.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_failed.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/failed.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_date.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_date.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_curved_bg_layout_white.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/curved_bg_layout_white.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_thumb_ups.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/thumb_ups.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_nothingfound.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/nothingfound.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_course_section.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_course_section.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_video_placeholder_img.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/video_placeholder_img.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_exam.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_exam.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_transactions_history_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/transactions_history_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_round_corner_toggle.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/round_corner_toggle.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_fragment_home.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_about.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_about.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_onlinecourses.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/onlinecourses.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_add.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_play.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_play.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_videos_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/videos_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_notification.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_notification.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/anim_left_in.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/anim/left_in.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_success.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_success.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_home_slide.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_home_slide.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_pdf_holder.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/pdf_holder.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_course_placeholder.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/course_placeholder.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_arrow_back.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_home.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_fragment_about.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/fragment_about.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_update_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/update_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_course_lesson_viewer.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_course_lesson_viewer.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_view_and_take_exam.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_view_and_take_exam.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_course_lesson_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/course_lesson_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_admin_settings.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_admin_settings.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_transactions_history.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_transactions_history.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_course.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_course.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_arrow_right.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_notif.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_notif.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_profile.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_settings.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_access_time.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_access_time.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_notification.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/notification.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_curved_home_header_section.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/curved_home_header_section.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_all_users.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_all_users.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_custom_button_bg.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/custom_button_bg.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_single_question_template.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/single_question_template.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_toolbar.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_options.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_options.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_youtube_player.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_youtube_player.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/anim_right_out.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/anim/right_out.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_rounded_btn.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/rounded_btn.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_course_sections.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_course_sections.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_videos.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_videos.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_image_slider_layout_item.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/image_slider_layout_item.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_phone.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_profile.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_profile.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable-v24_greendemy_logo.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable-v24/greendemy_logo.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_file_attached.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_file_attached.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_courses.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_courses.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_fragment_courses.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/fragment_courses.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_fragment_exams.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/fragment_exams.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_plan.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_plan.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_exam_acer.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/exam_acer.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_notification.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_notification.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_splash_head_bg.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/splash_head_bg.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_course_lesson.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_course_lesson.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_pause.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_exams_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/exams_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/font_adobe_clean_light.ttf.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/font/adobe_clean_light.ttf"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_users_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/users_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_credit_card.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_credit_card.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_upgrade_plans.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_upgrade_plans.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_phone_without.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_phone_without.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_no_data_found.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/no_data_found.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_fragment_videos.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/fragment_videos.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_update_exam_question.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_update_exam_question.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/menu_search_and_add_menu.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/menu/search_and_add_menu.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_runner_up.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/runner_up.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_shimmer_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/shimmer_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_resend.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_resend.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_curved_profile_bar.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/curved_profile_bar.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_users.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_users.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_enroll_in_tasks.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/enroll_in_tasks.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_app_container.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/app_container.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_time_to_learn.jpg.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/time_to_learn.jpg"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_info.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_plans_layout.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/plans_layout.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/xml_network_security_config.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_ic_person_pin.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/ic_person_pin.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/drawable_rounded_layout_bg.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/drawable/rounded_layout_bg.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_home_slides.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_home_slides.xml"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/res/merged/release/layout_activity_add_plan.xml.flat",
+        "source": "/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/res/layout/activity_add_plan.xml"
+    }
+]

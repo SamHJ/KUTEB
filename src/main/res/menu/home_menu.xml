@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home_slides"
+        android:icon="@drawable/ic_image"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/home_slides" />
+
+    <item android:id="@+id/home_upgrade_plans"
+        android:icon="@drawable/ic_upgrade_plans"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/upgrade_plans" />
+
+    <item android:id="@+id/home_notif_icon"
+        android:icon="@drawable/ic_notif"
+        app:showAsAction="always"
+        android:title="@string/notifications" />
+
+</menu>

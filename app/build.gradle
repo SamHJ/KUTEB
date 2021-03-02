@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.naijaunik.kuteb"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'com.google.firebase:firebase-auth:19.4.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //custom dependencies
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+    implementation 'com.etebarian:meow-bottom-navigation:1.0.4'
+    implementation 'com.github.smarteist:autoimageslider:1.3.9'
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    // AndroidX Capable version
+    implementation 'com.github.AppIntro:AppIntro:6.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.ch-muhammad-adil:MaterialPickerDialog:1.0.3'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //payment gateways integration
+    implementation 'com.payumoney.sdkui:plug-n-play:1.6.0'
+    implementation 'co.paystack.android.design.widget:pinpad:1.0.4'
+    implementation 'co.paystack.android:paystack:3.0.17'
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.15.3'
+    implementation 'com.borjabravo:readmoretextview:2.1.0'
+    implementation 'com.ct7ct7ct7.androidvimeoplayer:library:1.0.3'
+    api 'com.github.tcking:giraffeplayer2:0.1.25-lazyLoad'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.github.Flutterwave.rave-android:rave_android:2.1.8'
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+
+    implementation 'com.github.jeancsanchez:JcPlayer:2.6.16'
+}

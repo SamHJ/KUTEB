@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddCourseLesson">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lesson_title"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_title"
+                    android:nextFocusLeft="@id/input_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_content"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_content"
+                    android:nextFocusLeft="@id/input_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_video_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/video_type"
+                    android:textSize="18sp"
+                    android:enabled="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_video_type"
+                    android:nextFocusLeft="@id/input_video_type"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_video_layout"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lesson_video"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_video"
+                    android:nextFocusLeft="@id/input_video"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:id="@+id/input_video_2_layout"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_video_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lesson_video"
+                    android:enabled="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_video"
+                    android:nextFocusLeft="@id/input_video"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_external_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/external_link"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_external_link"
+                    android:nextFocusLeft="@id/input_external_link"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_attachment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/attachment"
+                    android:textSize="18sp"
+                    android:enabled="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_attachment"
+                    android:nextFocusLeft="@id/input_attachment"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/add_course_lesson"
+                android:id="@+id/btn_update_course_lesson"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="80dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content">
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

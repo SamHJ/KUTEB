@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hj/AndroidStudioProjects/GreenDemy/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/Users/hj/.gradle/caches/transforms-2/files-2.1/27d8d702de1bacd168087352f5d5eecc/jetified-upisdk-1.0.2/res/values-v27/values-v27.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "612"
+                    }
+                }
+            ]
+        }
+    ]
+}

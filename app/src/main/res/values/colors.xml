@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5b81a0</color>
+    <color name="colorPrimaryDark">#5b81a0</color>
+    <color name="colorAccent">#5b81a0</color>
+    <color name="lightPrimary">#431178BA</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="chipIconTint">@color/colorPrimary</color>
+
+    <!--use these color attributes to customize Material Picker Dialog-->
+
+    <color name="MPD_primaryColor">@color/colorPrimary</color>
+    <color name="MPD_primaryColorLight">#C5CAE9</color>
+    <color name="MPD_backGroundColor">#FFF</color>
+    <color name="MPD_pickerItemColorUnSelected">#00FFFFFF</color>
+    <color name="MPD_pickerItemColorSelected">@color/MPD_primaryColor</color>
+    <color name="MPD_pickerItemTextColorUnSelected">#444</color>
+    <color name="MPD_pickerItemTextColorSelected">#bbffffff</color>
+    <color name="MPD_pickerSelectedTextColor">#FFF</color>
+
+    <color name="color_dark_gray">#515c6f</color>
+
+
+    <color name="placeholder_bg">#dddddd</color>
+
+    <!--intro bg colors-->
+    <color name="daker_pink">#510b31</color>
+    <color name="trasparent"></color>
+
+
+    <!--colors for intro slides-->
+    <color name="intro_slide_bg_color">#ffffff</color>
+    <color name="gradient_start_color">#FF2CA96F</color>
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <color name="unsuccessful_registeration_color">#d50000</color>
+
+    <color name="colorWhiteTransparent">#80ffffff</color>
+
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="dark_gray_color">#707070</color>
+
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "879649033377",
+    "project_id": "kutebelearning",
+    "storage_bucket": "kutebelearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879649033377:android:48e5ce9ba701cb8546b4e0",
+        "android_client_info": {
+          "package_name": "com.naijaunik.kuteb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879649033377-sj7ve9j845467jg5d9a8sl5gpc4sjvr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naijaunik.kuteb",
+            "certificate_hash": "32316818153b3cb5f4b270ac671ba6dcfc5158e6"
+          }
+        },
+        {
+          "client_id": "879649033377-vsh38vvkq7lep3nij8qh71osgs9t4cpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCktotQB4poi7EaLJg5UAMlOg7zHNUJwuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879649033377-vsh38vvkq7lep3nij8qh71osgs9t4cpl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

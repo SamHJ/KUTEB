@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UpdateProfile">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/default_profile"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_name"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_first_name"
+                android:nextFocusLeft="@id/input_first_name"
+                android:textColor="@color/colorPrimary"
+
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_last_name"
+                android:nextFocusLeft="@id/input_last_name"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone"
+                android:enabled="false"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_phone"
+                android:nextFocusLeft="@id/input_phone"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_email"
+                android:nextFocusLeft="@id/input_email"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gender"
+                android:textSize="18sp"
+                android:enabled="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_gender"
+                android:nextFocusLeft="@id/input_gender"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/update_profile"
+            android:id="@+id/btn_update_profile"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="80dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

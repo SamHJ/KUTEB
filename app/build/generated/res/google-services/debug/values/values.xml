@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">879649033377-vsh38vvkq7lep3nij8qh71osgs9t4cpl.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">879649033377</string>
+    <string name="google_api_key" translatable="false">AIzaSyCktotQB4poi7EaLJg5UAMlOg7zHNUJwuI</string>
+    <string name="google_app_id" translatable="false">1:879649033377:android:48e5ce9ba701cb8546b4e0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCktotQB4poi7EaLJg5UAMlOg7zHNUJwuI</string>
+    <string name="google_storage_bucket" translatable="false">kutebelearning.appspot.com</string>
+    <string name="project_id" translatable="false">kutebelearning</string>
+</resources>

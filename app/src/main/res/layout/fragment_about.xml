@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFEFEF"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutFragment">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:id="@+id/about_app_btn"
+            app:iconTint="@color/colorPrimary"
+            android:text="@string/about_app"
+            android:textAlignment="textStart"
+            app:icon="@drawable/ic_info"
+            app:iconGravity="end"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/white"
+            android:layout_height="@dimen/dimen_60dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:id="@+id/privacy_policy_btn"
+            app:iconTint="@color/colorPrimary"
+            android:text="@string/privacy_policy"
+            android:textAlignment="textStart"
+            app:icon="@drawable/ic_info"
+            app:iconGravity="end"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/white"
+            android:layout_height="@dimen/dimen_60dp">
+        </com.google.android.material.button.MaterialButton>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:id="@+id/terms_and_condition_btn"
+            app:iconTint="@color/colorPrimary"
+            android:text="@string/terms_and_conditions"
+            android:textAlignment="textStart"
+            app:icon="@drawable/ic_info"
+            app:iconGravity="end"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/white"
+            android:layout_height="@dimen/dimen_60dp">
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:id="@+id/transactions_history_btn"
+            android:visibility="gone"
+            app:iconTint="@color/colorPrimary"
+            android:text="@string/transactions_history"
+            android:textAlignment="textStart"
+            app:icon="@drawable/ic_history"
+            app:iconGravity="end"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/white"
+            android:layout_height="@dimen/dimen_60dp">
+        </com.google.android.material.button.MaterialButton>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".Activities.Profile">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_below="@+id/toolbar"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:background="@drawable/curved_profile_bar"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:id="@+id/header_section"
+               android:minHeight="280dp">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <de.hdodenhof.circleimageview.CircleImageView
+                       android:id="@+id/profile_image"
+                       android:layout_width="match_parent"
+                       android:layout_height="120dp"
+                       android:layout_marginTop="20dp"
+                       android:src="@drawable/profile_placeholder_white"
+                       android:tint="@color/colorPrimary"
+                       app:civ_border_width="2dp"
+                       app:civ_border_color="@color/colorPrimary"/>
+
+                   <ImageButton
+                       android:layout_width="50dp"
+                       android:layout_height="50dp"
+                       android:layout_alignParentEnd="true"
+                       android:layout_marginEnd="20dp"
+                       android:id="@+id/edit_btn"
+                       android:layout_marginTop="20dp"
+                       android:background="@color/trasparent"
+                       android:src="@drawable/edit_icon"/>
+
+               </RelativeLayout>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:textColor="@color/colorWhite"
+                   android:layout_marginTop="10dp"
+                   android:textSize="20sp"
+                   android:id="@+id/user_name_text"
+                   android:gravity="center"
+                   android:text="@string/username_placeholder_text"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:textColor="@color/colorWhite"
+                   android:textSize="14sp"
+                   android:id="@+id/phone_number_text"
+                   android:layout_marginTop="5dp"
+                   android:gravity="center"
+                   android:text="@string/phone_number_text_placeholder"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:textColor="@color/colorWhite"
+                   android:textSize="14sp"
+                   android:id="@+id/email_text"
+                   android:layout_marginTop="5dp"
+                   android:gravity="center"
+                   android:text="@string/email_text_placeholder"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:textColor="@color/colorWhite"
+                   android:textSize="14sp"
+                   android:id="@+id/status_text"
+                   android:layout_marginTop="5dp"
+                   android:visibility="gone"
+                   android:gravity="center"
+                   android:text="@string/status_text_placeholder"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+
+           <androidx.cardview.widget.CardView
+               app:cardCornerRadius="10dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="30dp"
+               android:layout_marginBottom="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/upgrade_cardview"
+               android:visibility="gone"
+               android:layout_below="@+id/header_section">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:layout_height="match_parent">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textSize="18sp"
+                       android:layout_marginTop="20dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/color_dark_gray"
+                       android:text="@string/sub_details"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginStart="20dp"
+                       android:layout_marginEnd="20dp"
+                       android:textSize="14sp"
+                       android:id="@+id/subscription_details"
+                       android:textAlignment="center"
+                       android:layout_marginTop="10dp"
+                       android:textColor="@color/intro_description_color"
+                       android:text="@string/trial_expiration_warning"/>
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorWhite"
+                       android:text="@string/upgrade"
+                       android:layout_gravity="end"
+                       android:textAllCaps="false"
+                       android:layout_margin="10dp"
+                       android:id="@+id/upgrade_btn"
+                       android:backgroundTint="@color/colorPrimary">
+                   </com.google.android.material.button.MaterialButton>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginEnd="20dp"
+               android:text="@string/logout"
+               android:textAlignment="textStart"
+               android:id="@+id/logout_btn"
+               android:layout_marginBottom="50dp"
+               android:textAllCaps="false"
+               android:layout_below="@+id/upgrade_cardview"
+               android:textColor="@color/colorWhite"
+               android:backgroundTint="@color/colorPrimary"
+               android:layout_height="wrap_content">
+           </com.google.android.material.button.MaterialButton>
+
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+</RelativeLayout>

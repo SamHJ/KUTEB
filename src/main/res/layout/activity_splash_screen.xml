@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="100"
+    tools:context=".Activities.SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-100dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/splash_header_img"
+        android:weightSum="50"
+        android:background="@drawable/curved_bg_layout_white"
+        android:src="@drawable/splash_head_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/splash_header_img"
+        android:gravity="center"
+        android:weightSum="50"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/greendemy_logo"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFEFEF"
+    tools:context=".Fragments.HomeFragment">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent" >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_alignParentTop="true"
+               android:id="@+id/header_section"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="180dp"
+                   android:background="@drawable/curved_home_header_section"/>
+
+               <androidx.cardview.widget.CardView
+                   app:cardCornerRadius="10dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:layout_marginTop="30dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="200dp">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/greendemy_logo"
+                       android:id="@+id/placeholder_img"
+                       android:scaleType="fitXY"/>
+
+                   <ProgressBar
+                       android:layout_width="match_parent"
+                       android:indeterminate="true"
+                       android:id="@+id/sliderLoader"
+                       android:layout_gravity="center"
+                       android:layout_height="wrap_content"/>
+
+
+                   <com.smarteist.autoimageslider.SliderView
+                       android:id="@+id/imageSlider"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       app:sliderAnimationDuration="600"
+                       app:sliderAutoCycleDirection="back_and_forth"
+                       app:sliderAutoCycleEnabled="true"
+                       app:sliderIndicatorAnimationDuration="600"
+                       app:sliderIndicatorGravity="center_horizontal|bottom"
+                       app:sliderIndicatorMargin="15dp"
+                       app:sliderIndicatorOrientation="horizontal"
+                       app:sliderIndicatorPadding="3dp"
+                       app:sliderIndicatorRadius="2dp"
+                       app:sliderIndicatorSelectedColor="#5A5A5A"
+                       app:sliderIndicatorUnselectedColor="#FFF"
+                       app:sliderScrollTimeInSec="1"
+                       android:background="@drawable/greendemy_logo"
+                       app:sliderStartAutoCycle="true" />
+
+               </androidx.cardview.widget.CardView>
+
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_margin="20dp"
+               android:layout_width="match_parent"
+               android:visibility="gone"
+               android:id="@+id/trial_warning_section"
+               android:layout_below="@+id/header_section"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/red"
+                   android:textSize="14sp"
+                   android:id="@+id/trial_warning_text"
+                   android:layout_centerInParent="true"
+                   android:layout_alignParentStart="true"
+                   android:layout_toStartOf="@+id/upgrade_btn"
+                   android:text="@string/trial_warning"/>
+
+               <com.google.android.material.button.MaterialButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorWhite"
+                   android:text="@string/upgrade"
+                   android:textAllCaps="false"
+                   android:id="@+id/upgrade_btn"
+                   android:layout_alignParentEnd="true"
+                   android:backgroundTint="@color/colorPrimary">
+               </com.google.android.material.button.MaterialButton>
+
+
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:id="@+id/courses_section"
+               android:layout_below="@+id/trial_warning_section"
+               android:layout_height="wrap_content">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:id="@+id/courses_header_section"
+                   android:layout_height="wrap_content">
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="wrap_content"
+                       android:text="@string/courses"
+                       android:textAllCaps="false"
+                       android:layout_alignParentStart="true"
+                       android:textStyle="bold"
+                       android:layout_marginStart="-10dp"
+                       android:textSize="16sp"
+                       android:id="@+id/courses_text_btn"
+                       android:textColor="@color/color_dark_gray"
+                       android:background="@android:color/transparent"
+                       android:layout_height="wrap_content">
+                   </com.google.android.material.button.MaterialButton>
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="wrap_content"
+                       android:text="@string/view_all"
+                       android:layout_alignParentEnd="true"
+                       android:id="@+id/view_all_btn"
+                       android:layout_marginEnd="-10dp"
+                       android:textAllCaps="false"
+                       android:textColor="@color/colorPrimary"
+                       android:background="@android:color/transparent"
+                       android:layout_height="wrap_content">
+                   </com.google.android.material.button.MaterialButton>
+
+               </RelativeLayout>
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/courses_header_section"
+                   android:id="@+id/courses_recycler_view"/>
+
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_marginTop="20dp"
+               android:id="@+id/videos_section"
+               android:layout_below="@+id/courses_section"
+               android:layout_marginBottom="150dp"
+               android:layout_height="wrap_content">
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:id="@+id/video_header_section"
+                   android:layout_height="wrap_content">
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="wrap_content"
+                       android:text="@string/videos"
+                       android:textAllCaps="false"
+                       android:layout_alignParentStart="true"
+                       android:textStyle="bold"
+                       android:layout_marginStart="-10dp"
+                       android:textSize="16sp"
+                       android:id="@+id/videos_text_btn"
+                       android:textColor="@color/color_dark_gray"
+                       android:background="@android:color/transparent"
+                       android:layout_height="wrap_content">
+                   </com.google.android.material.button.MaterialButton>
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="wrap_content"
+                       android:text="@string/view_all"
+                       android:layout_alignParentEnd="true"
+                       android:id="@+id/view_all_videos_btn"
+                       android:layout_marginEnd="-10dp"
+                       android:textAllCaps="false"
+                       android:textColor="@color/colorPrimary"
+                       android:background="@android:color/transparent"
+                       android:layout_height="wrap_content">
+                   </com.google.android.material.button.MaterialButton>
+
+               </RelativeLayout>
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/video_header_section"
+                   android:id="@+id/videos_recycler_view"/>
+
+           </RelativeLayout>
+
+
+       </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

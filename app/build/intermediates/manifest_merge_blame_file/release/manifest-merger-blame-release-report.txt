@@ -1,0 +1,630 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.havotek.greendemy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:8:5-80
+13-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:10:5-66
+15-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:11:5-69
+16-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:11:22-66
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:12:5-75
+17-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+18-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:13:5-84
+18-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:13:22-81
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+19-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:5-76
+19-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:13:22-73
+20    <!--
+21    <uses-permission android:name="android.permission.READ_SMS" />
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23    -->
+24    <uses-feature
+24-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:24:5-26:36
+25        android:name="android.hardware.telephony"
+25-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:25:9-50
+26        android:required="false" />
+26-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:26:9-33
+27
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+28-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:22-65
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:9:5-65
+30-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:9:22-62
+31
+32    <uses-feature
+32-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:12:5-14:36
+33        android:name="android.hardware.camera"
+33-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:13:9-47
+34        android:required="false" />
+34-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:14:9-33
+35    <uses-feature
+35-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:15:5-17:36
+36        android:name="android.hardware.camera.autofocus"
+36-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:16:9-57
+37        android:required="false" />
+37-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:17:9-33
+38
+39    <application
+39-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:15:5-131:19
+40        android:name="com.havotek.greendemy.Application.GreenDemy"
+40-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:16:9-67
+41        android:allowBackup="true"
+41-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:17:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/71a649a18db048a533a3b2353514428a/core-1.3.0/AndroidManifest.xml:24:18-86
+43        android:hardwareAccelerated="true"
+43-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:18:9-43
+44        android:icon="@drawable/greendemy_logo"
+44-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:19:9-48
+45        android:label="@string/app_name"
+45-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:20:9-41
+46        android:largeHeap="true"
+46-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:21:9-33
+47        android:networkSecurityConfig="@xml/network_security_config"
+47-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:22:9-69
+48        android:requestLegacyExternalStorage="true"
+48-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:23:9-52
+49        android:roundIcon="@drawable/greendemy_logo"
+49-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:24:9-53
+50        android:supportsRtl="true"
+50-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:25:9-35
+51        android:theme="@style/AppTheme"
+51-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:26:9-40
+52        android:usesCleartextTraffic="false"
+52-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:17:18-54
+53        android:windowSoftInputMode="adjustPan" >
+53-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:30:9-48
+54        <activity
+54-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:31:9-32:108
+55            android:name="com.havotek.greendemy.Activities.UpdateExamQuestion"
+55-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:31:19-85
+56            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+56-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:32:13-106
+57        <activity
+57-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:33:9-34:108
+58            android:name="com.havotek.greendemy.Activities.AddExamQuestion"
+58-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:33:19-82
+59            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+59-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:34:13-106
+60        <activity
+60-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:35:9-36:108
+61            android:name="com.havotek.greendemy.Activities.ViewAndTakeExam"
+61-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:35:19-82
+62            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+62-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:36:13-106
+63        <activity
+63-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:37:9-38:108
+64            android:name="com.havotek.greendemy.Activities.AddExam"
+64-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:37:19-74
+65            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+65-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:38:13-106
+66        <activity
+66-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:39:9-40:108
+67            android:name="com.havotek.greendemy.Activities.UpdateExam"
+67-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:39:19-77
+68            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+68-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:40:13-106
+69        <activity
+69-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:41:9-43:109
+70            android:name="com.havotek.greendemy.Activities.TransactionsHistory"
+70-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:42:13-80
+71            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+71-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:43:13-106
+72        <activity
+72-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:44:9-46:109
+73            android:name="com.havotek.greendemy.Activities.AllUsers"
+73-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:45:13-69
+74            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+74-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:46:13-106
+75        <activity
+75-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:47:9-49:109
+76            android:name="com.havotek.greendemy.Activities.UpdatePlan"
+76-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:48:13-71
+77            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+77-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:49:13-106
+78        <activity
+78-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:50:9-52:109
+79            android:name="com.havotek.greendemy.Activities.AddPlan"
+79-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:51:13-68
+80            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+80-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:52:13-106
+81        <activity
+81-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:53:9-55:109
+82            android:name="com.havotek.greendemy.Activities.AddHomeSlide"
+82-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:54:13-73
+83            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+83-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:55:13-106
+84        <activity
+84-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:56:9-58:109
+85            android:name="com.havotek.greendemy.Activities.UpdateHomeSlide"
+85-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:57:13-76
+86            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+86-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:58:13-106
+87        <activity
+87-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:59:9-61:109
+88            android:name="com.havotek.greendemy.Activities.HomeSlides"
+88-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:60:13-71
+89            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+89-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:61:13-106
+90        <activity
+90-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:62:9-64:109
+91            android:name="com.havotek.greendemy.Activities.Help"
+91-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:63:13-65
+92            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+92-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:64:13-106
+93
+94        <meta-data
+94-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:66:9-68:59
+95            android:name="co.paystack.android.PublicKey"
+95-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:67:13-57
+96            android:value="@string/paystack_public_key" />
+96-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:68:13-56
+97
+98        <activity
+98-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:70:9-72:109
+99            android:name="com.havotek.greendemy.Activities.AdminSettings"
+99-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:71:13-74
+100            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+100-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:72:13-106
+101        <activity
+101-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:73:9-75:109
+102            android:name="com.havotek.greendemy.Activities.YoutubePlayerActivity"
+102-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:74:13-82
+103            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+103-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:75:13-106
+104        <activity
+104-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:76:9-78:109
+105            android:name="com.havotek.greendemy.Activities.AddCourseLesson"
+105-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:77:13-76
+106            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+106-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:78:13-106
+107        <activity
+107-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:79:9-81:109
+108            android:name="com.havotek.greendemy.Activities.CourseLessonViewer"
+108-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:80:13-79
+109            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+109-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:81:13-106
+110        <activity
+110-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:82:9-84:109
+111            android:name="com.havotek.greendemy.Activities.UpdateCourseSection"
+111-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:83:13-80
+112            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+112-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:84:13-106
+113        <activity
+113-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:85:9-87:109
+114            android:name="com.havotek.greendemy.Activities.AddCourse"
+114-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:86:13-70
+115            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+115-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:87:13-106
+116        <activity
+116-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:88:9-90:109
+117            android:name="com.havotek.greendemy.Activities.UpdateCourse"
+117-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:89:13-73
+118            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+118-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:90:13-106
+119        <activity
+119-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:91:9-93:109
+120            android:name="com.havotek.greendemy.Activities.CourseSections"
+120-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:92:13-75
+121            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+121-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:93:13-106
+122        <activity
+122-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:94:9-96:109
+123            android:name="com.havotek.greendemy.Activities.UpgradePlans"
+123-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:95:13-73
+124            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+124-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:96:13-106
+125        <activity
+125-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:97:9-99:109
+126            android:name="com.havotek.greendemy.Activities.Profile"
+126-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:98:13-68
+127            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+127-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:99:13-106
+128        <activity
+128-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:100:9-102:109
+129            android:name="com.havotek.greendemy.Activities.AddNotification"
+129-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:101:13-76
+130            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+130-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:102:13-106
+131        <activity
+131-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:103:9-105:109
+132            android:name="com.havotek.greendemy.Activities.UpdateNotification"
+132-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:104:13-79
+133            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+133-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:105:13-106
+134        <activity android:name="com.havotek.greendemy.Activities.Onboarding" >
+134-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:106:9-112:20
+134-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:106:19-77
+135            <intent-filter>
+135-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:107:13-111:29
+136                <action android:name="android.intent.action.MAIN" />
+136-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:108:17-69
+136-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:108:25-66
+137
+138                <category android:name="android.intent.category.LAUNCHER" />
+138-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:110:17-77
+138-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:110:27-74
+139            </intent-filter>
+140        </activity>
+141        <activity
+141-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:113:9-115:109
+142            android:name="com.havotek.greendemy.Activities.WebViewer"
+142-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:114:13-70
+143            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+143-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:115:13-106
+144        <activity
+144-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:116:9-118:109
+145            android:name="com.havotek.greendemy.Activities.Login"
+145-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:117:13-66
+146            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+146-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:118:13-106
+147        <activity
+147-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:119:9-121:109
+148            android:name="com.havotek.greendemy.Activities.Notifications"
+148-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:120:13-74
+149            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+149-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:121:13-106
+150        <activity
+150-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:122:9-124:109
+151            android:name="com.havotek.greendemy.Activities.UpdateProfile"
+151-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:123:13-74
+152            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+152-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:124:13-106
+153        <activity
+153-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:125:9-127:109
+154            android:name="com.havotek.greendemy.Activities.SplashScreen"
+154-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:126:13-73
+155            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+155-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:127:13-106
+156        <activity
+156-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:128:9-130:109
+157            android:name="com.havotek.greendemy.Activities.AppContainer"
+157-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:129:13-73
+158            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+158-->/Users/hj/AndroidStudioProjects/GreenDemy/app/src/main/AndroidManifest.xml:130:13-106
+159        <activity
+159-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:19:9-22:54
+160            android:name="tcking.github.com.giraffeplayer2.PlayerActivity"
+160-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:20:13-75
+161            android:configChanges="keyboardHidden|orientation|screenSize"
+161-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:21:13-74
+162            android:screenOrientation="fullSensor" />
+162-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:22:13-51
+163
+164        <service android:name="tcking.github.com.giraffeplayer2.LazyLoadManager" />
+164-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:24:9-84
+164-->[com.github.tcking:giraffeplayer2:0.1.25-lazyLoad] /Users/hj/.gradle/caches/transforms-2/files-2.1/4951ccd5dad37082578b5334d0983868/jetified-giraffeplayer2-0.1.25-lazyLoad/AndroidManifest.xml:24:18-81
+165
+166        <activity
+166-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:19:9-24:55
+167            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+167-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:20:13-79
+168            android:label="@string/title_activity_citrus"
+168-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:21:13-58
+169            android:screenOrientation="portrait"
+169-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:22:13-49
+170            android:theme="@style/PayumoneyAppTheme"
+170-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:23:13-53
+171            android:windowSoftInputMode="adjustPan" />
+171-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:24:13-52
+172        <activity
+172-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:25:9-28:56
+173            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+173-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:26:13-81
+174            android:screenOrientation="portrait"
+174-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:27:13-49
+175            android:theme="@style/PayumoneyAppTheme" />
+175-->[com.payumoney.sdkui:plug-n-play:1.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/ef0ef5d346812a1799e648e4a2773b9c/jetified-plug-n-play-1.6.0/AndroidManifest.xml:28:13-53
+176        <activity
+176-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:15:9-19:55
+177            android:name="com.flutterwave.raveandroid.RavePayActivity"
+177-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:16:13-71
+178            android:label="@string/app_name"
+178-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:17:13-45
+179            android:screenOrientation="portrait"
+179-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:18:13-49
+180            android:windowSoftInputMode="adjustPan" />
+180-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:19:13-52
+181        <activity
+181-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:20:9-22:52
+182            android:name="com.flutterwave.raveandroid.card.savedcards.SavedCardsActivity"
+182-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:21:13-90
+183            android:screenOrientation="portrait" />
+183-->[com.github.Flutterwave.rave-android:rave_android:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/19a0701cf8d8ffb2bb5328d97bf6b7d9/jetified-rave_android-2.1.8/AndroidManifest.xml:22:13-49
+184        <activity
+184-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:31:9-34:72
+185            android:name="com.payumoney.core.SdkWebViewActivityNew"
+185-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:32:13-68
+186            android:screenOrientation="portrait"
+186-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:33:13-49
+187            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+187-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:34:13-69
+188        <activity
+188-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:35:9-40:59
+189            android:name="com.payu.custombrowser.CBActivity"
+189-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:36:13-61
+190            android:screenOrientation="portrait"
+190-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:37:13-49
+191            android:theme="@style/Theme.AppCompat"
+191-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:38:13-51
+192            android:windowSoftInputMode="stateAlwaysHidden" />
+192-->[com.payumoney.core:payumoney-sdk:7.6.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/b43d669a473e143f234f3d2e9f9a27ac/jetified-payumoney-sdk-7.6.0/AndroidManifest.xml:39:13-60
+193        <activity
+193-->[com.github.Flutterwave.rave-android:rave_utils:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/9ec80f0a1f8652a41a78f5bde5c072fa/jetified-rave_utils-2.1.8/AndroidManifest.xml:12:9-14:52
+194            android:name="com.flutterwave.raveutils.verification.VerificationActivity"
+194-->[com.github.Flutterwave.rave-android:rave_utils:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/9ec80f0a1f8652a41a78f5bde5c072fa/jetified-rave_utils-2.1.8/AndroidManifest.xml:13:13-87
+195            android:screenOrientation="portrait" />
+195-->[com.github.Flutterwave.rave-android:rave_utils:2.1.8] /Users/hj/.gradle/caches/transforms-2/files-2.1/9ec80f0a1f8652a41a78f5bde5c072fa/jetified-rave_utils-2.1.8/AndroidManifest.xml:14:13-49
+196
+197        <service android:name="com.example.jean.jcplayer.service.JcPlayerService" />
+197-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:18:9-85
+197-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:18:18-82
+198
+199        <receiver
+199-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:20:9-23:40
+200            android:name="com.example.jean.jcplayer.service.notification.JcPlayerNotificationReceiver"
+200-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:21:13-103
+201            android:enabled="true"
+201-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:22:13-35
+202            android:exported="false" />
+202-->[com.github.jeancsanchez:JcPlayer:2.6.16] /Users/hj/.gradle/caches/transforms-2/files-2.1/81813ae0b7d193a762dd2c9355c2c51a/jetified-JcPlayer-2.6.16/AndroidManifest.xml:23:13-37
+203
+204        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+204-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:9-81
+204-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:23:18-78
+205
+206        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+206-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:9-42:20
+206-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:25:19-84
+207            <intent-filter>
+207-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:26:13-33:29
+208                <data android:scheme="com.havotek.greendemy.success" />
+208-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
+208-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
+209
+210                <action android:name="android.intent.action.VIEW" />
+210-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:29:17-69
+210-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:29:25-66
+211
+212                <category android:name="android.intent.category.DEFAULT" />
+212-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:31:17-76
+212-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:31:27-73
+213                <category android:name="android.intent.category.BROWSABLE" />
+213-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
+213-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
+214            </intent-filter>
+215            <intent-filter>
+215-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:34:13-41:29
+216                <data android:scheme="com.havotek.greendemy.failure" />
+216-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:17-67
+216-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:27:23-64
+217
+218                <action android:name="android.intent.action.VIEW" />
+218-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:29:17-69
+218-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:29:25-66
+219
+220                <category android:name="android.intent.category.DEFAULT" />
+220-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:31:17-76
+220-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:31:27-73
+221                <category android:name="android.intent.category.BROWSABLE" />
+221-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:17-78
+221-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:32:27-75
+222            </intent-filter>
+223        </activity>
+224        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+224-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:9-79
+224-->[com.payu.custombrowser:payu-custom-browser:7.5.1] /Users/hj/.gradle/caches/transforms-2/files-2.1/b07ac38a5dc3ded2dc54675636120075/jetified-payu-custom-browser-7.5.1/AndroidManifest.xml:43:19-76
+225        <activity
+225-->[com.payu.upisdk:upisdk:1.0.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/27d8d702de1bacd168087352f5d5eecc/jetified-upisdk-1.0.2/AndroidManifest.xml:14:9-17:63
+226            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+226-->[com.payu.upisdk:upisdk:1.0.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/27d8d702de1bacd168087352f5d5eecc/jetified-upisdk-1.0.2/AndroidManifest.xml:15:13-83
+227            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+227-->[com.payu.upisdk:upisdk:1.0.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/27d8d702de1bacd168087352f5d5eecc/jetified-upisdk-1.0.2/AndroidManifest.xml:16:13-75
+228            android:windowSoftInputMode="stateAlwaysHidden" />
+228-->[com.payu.upisdk:upisdk:1.0.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/27d8d702de1bacd168087352f5d5eecc/jetified-upisdk-1.0.2/AndroidManifest.xml:17:13-60
+229        <activity
+229-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+230            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+230-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+231            android:excludeFromRecents="true"
+231-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+232            android:exported="true"
+232-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+233            android:launchMode="singleTask"
+233-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+234            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+234-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+236
+237        <service
+237-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:33:9-39:19
+238            android:name="com.google.firebase.components.ComponentDiscoveryService"
+238-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:34:13-84
+239            android:directBootAware="true"
+239-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+240            android:exported="false" >
+240-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:35:13-37
+241            <meta-data
+241-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+242                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+242-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-auth:19.4.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/626811f7e650cd16146f1c5ab7f97362/jetified-firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+244            <meta-data
+244-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+245                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+245-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-installations:16.3.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+248                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+248-->[com.google.firebase:firebase-installations:16.3.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-installations:16.3.2] /Users/hj/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+250        </service>
+251
+252        <provider
+252-->[com.squareup.picasso:picasso:2.71828] /Users/hj/.gradle/caches/transforms-2/files-2.1/bbdfb616b253c062ebd1c3e2bac35607/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+253            android:name="com.squareup.picasso.PicassoProvider"
+253-->[com.squareup.picasso:picasso:2.71828] /Users/hj/.gradle/caches/transforms-2/files-2.1/bbdfb616b253c062ebd1c3e2bac35607/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+254            android:authorities="com.havotek.greendemy.com.squareup.picasso"
+254-->[com.squareup.picasso:picasso:2.71828] /Users/hj/.gradle/caches/transforms-2/files-2.1/bbdfb616b253c062ebd1c3e2bac35607/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+255            android:exported="false" />
+255-->[com.squareup.picasso:picasso:2.71828] /Users/hj/.gradle/caches/transforms-2/files-2.1/bbdfb616b253c062ebd1c3e2bac35607/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+256
+257        <activity
+257-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:12:9-14:63
+258            android:name="co.paystack.android.ui.PinActivity"
+258-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:13:13-62
+259            android:theme="@style/Paystack.Dialog.PinEntry" />
+259-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:14:13-60
+260        <activity
+260-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:15:9-17:63
+261            android:name="co.paystack.android.ui.OtpActivity"
+261-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:16:13-62
+262            android:theme="@style/Paystack.Dialog.OtpEntry" />
+262-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:17:13-60
+263        <activity
+263-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:18:9-20:63
+264            android:name="co.paystack.android.ui.AuthActivity"
+264-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:19:13-63
+265            android:theme="@style/Paystack.Dialog.OtpEntry" />
+265-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:20:13-60
+266        <activity
+266-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:21:9-23:64
+267            android:name="co.paystack.android.ui.CardActivity"
+267-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:22:13-63
+268            android:theme="@style/Paystack.Dialog.CardEntry" />
+268-->[co.paystack.android:paystack:3.0.17] /Users/hj/.gradle/caches/transforms-2/files-2.1/a6b8a95a1a0f7479214b75f958abcea4/jetified-paystack-3.0.17/AndroidManifest.xml:23:13-61
+269        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+269-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:13:9-84
+269-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:13:19-81
+270        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+270-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:14:9-90
+270-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:14:19-87
+271        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+271-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:15:9-91
+271-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:15:19-88
+272        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+272-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:16:9-82
+272-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:16:19-79
+273        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+273-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:17:9-96
+273-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:17:19-93
+274        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+274-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:18:9-97
+274-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:18:19-94
+275        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+275-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:19:9-94
+275-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:19:19-91
+276        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+276-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:20:9-97
+276-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:20:19-94
+277        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+277-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:21:9-98
+277-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:21:19-95
+278
+279        <service
+279-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:23:9-25:40
+280            android:name="com.paypal.android.sdk.payments.PayPalService"
+280-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:24:13-73
+281            android:exported="false" />
+281-->[com.paypal.sdk:paypal-android-sdk:2.15.3] /Users/hj/.gradle/caches/transforms-2/files-2.1/b5e9b4cc65d84ee787ccc3fb46ae98d9/jetified-paypal-android-sdk-2.15.3/AndroidManifest.xml:25:13-37
+282
+283        <activity
+283-->[com.google.android.gms:play-services-base:17.1.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+284            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+284-->[com.google.android.gms:play-services-base:17.1.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+285            android:exported="false"
+285-->[com.google.android.gms:play-services-base:17.1.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+286            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+286-->[com.google.android.gms:play-services-base:17.1.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+287
+288        <receiver
+288-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+289            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+289-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+291            android:exported="false" >
+291-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+292        </receiver>
+293
+294        <service
+294-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+295            android:name="com.google.android.gms.measurement.AppMeasurementService"
+295-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+296            android:enabled="true"
+296-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+297            android:exported="false" />
+297-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+298        <service
+298-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+299            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+299-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+300            android:enabled="true"
+300-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+302            android:permission="android.permission.BIND_JOB_SERVICE" />
+302-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+303
+304        <provider
+304-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+305            android:name="com.google.firebase.provider.FirebaseInitProvider"
+305-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+306            android:authorities="com.havotek.greendemy.firebaseinitprovider"
+306-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+307            android:exported="false"
+307-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+308            android:initOrder="100" />
+308-->[com.google.firebase:firebase-common:19.3.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+309
+310        <meta-data
+310-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+311            android:name="com.google.android.gms.version"
+311-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+312            android:value="@integer/google_play_services_version" />
+312-->[com.google.android.gms:play-services-basement:17.0.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+313
+314        <activity
+314-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:20:9-22:66
+315            android:name="io.card.payment.CardIOActivity"
+315-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:21:13-58
+316            android:configChanges="keyboardHidden|orientation" />
+316-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:22:13-63
+317        <activity android:name="io.card.payment.DataEntryActivity" />
+317-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:23:9-70
+317-->[io.card:android-sdk:5.5.0] /Users/hj/.gradle/caches/transforms-2/files-2.1/9cabaecdc3b7bd0f642517c162f69698/jetified-android-sdk-5.5.0/AndroidManifest.xml:23:19-67
+318    </application>
+319
+320</manifest>

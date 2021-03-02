@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CourseLessonViewer">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+           <androidx.cardview.widget.CardView
+               app:cardCornerRadius="10dp"
+               android:layout_marginTop="@dimen/dimen_20dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:id="@+id/video_cardview"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content">
+
+                   <com.ct7ct7ct7.androidvimeoplayer.view.VimeoPlayerView
+                       android:id="@+id/vimeoPlayer"
+                       app:topicColor="#00FFFF"
+                       android:visibility="gone"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"/>
+
+                   <tcking.github.com.giraffeplayer2.VideoView
+                       android:id="@+id/video_view"
+                       android:visibility="gone"
+                       android:layout_width="match_parent"
+                       android:layout_height="200dp"/>
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:scaleType="fitXY"
+                       android:visibility="gone"
+                       android:id="@+id/youtube_video_image_placeholder"
+                       android:layout_height="200dp"
+                       android:src="@drawable/video_placeholder_img"/>
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_gravity="end|bottom"
+                   android:orientation="horizontal"
+                   android:layout_weight=".15"
+                   android:gravity="end"
+                   android:layout_marginEnd="@dimen/dimen_10dp"
+                   android:layout_height="0dp">
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="@dimen/dimen_60dp"
+                       android:id="@+id/attached_file_btn"
+                       app:icon="@drawable/ic_file_attached"
+                       app:iconTint="@color/colorPrimary"
+                       android:layout_marginEnd="@dimen/dimen_20dp"
+                       android:backgroundTint="@color/white"
+                       android:layout_height="@dimen/dimen_60dp"
+                       app:cornerRadius="300dp">
+                   </com.google.android.material.button.MaterialButton>
+
+                   <com.google.android.material.button.MaterialButton
+                       android:layout_width="@dimen/dimen_60dp"
+                       android:id="@+id/external_link_btn"
+                       app:icon="@drawable/ic_link"
+                       app:iconTint="@color/colorPrimary"
+                       android:layout_marginEnd="@dimen/dimen_10dp"
+                       android:backgroundTint="@color/white"
+                       android:layout_height="@dimen/dimen_60dp"
+                       app:cornerRadius="300dp">
+                   </com.google.android.material.button.MaterialButton>
+
+               </LinearLayout>
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/course_content"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:textSize="@dimen/dimen_18sp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColorLink="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

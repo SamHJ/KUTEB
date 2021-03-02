@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.Help">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/subject"
+                    android:textSize="18sp"
+                    android:maxLength="100"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_subject"
+                    android:nextFocusLeft="@id/input_subject"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/message"
+                    android:textSize="18sp"
+                    android:minHeight="100dp"
+                    android:maxLength="200"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_message"
+                    android:nextFocusLeft="@id/input_message"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/send"
+                android:id="@+id/send_btn"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content">
+            </com.google.android.material.button.MaterialButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:textSize="@dimen/dimen_20sp"
+                android:text="@string/or"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/telephone"
+                android:id="@+id/tel_btn"
+                app:icon="@drawable/ic_phone_without"
+                app:iconGravity="start"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/dimen_50dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content">
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

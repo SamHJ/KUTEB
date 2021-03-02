@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_course_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:clickable="true"
+        android:layout_margin="@dimen/dimen_10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/course_cardview"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        app:cardCornerRadius="5dp"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_height="120dp"
+        tools:ignore="UnusedAttribute">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/course_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:src="@drawable/course_placeholder"
+                android:layout_height="@dimen/dimen_50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/course_image"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:id="@+id/course_title"
+                android:maxLines="2"
+                android:layout_marginEnd="@dimen/dimen_5dp"
+                android:layout_marginStart="@dimen/dimen_5dp"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:textSize="@dimen/dimen_16sp"
+                android:text="@string/title"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

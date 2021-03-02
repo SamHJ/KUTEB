@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UpdateCourse">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="@dimen/dimen_80dp"
+                android:padding="@dimen/dimen_10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/rounded_layout_bg"
+                android:layout_height="@dimen/dimen_80dp">
+
+                <ImageView
+                    android:id="@+id/course_image"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:src="@drawable/course_placeholder"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_title"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_title"
+                    android:nextFocusLeft="@id/input_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_decription"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_description"
+                    android:nextFocusLeft="@id/input_description"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_no_of_students"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_no_of_students"
+                    android:textSize="18sp"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_no_of_students"
+                    android:nextFocusLeft="@id/input_no_of_students"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/login_logo"
+                tools:targetApi="lollipop">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_status"
+                    android:textSize="18sp"
+                    android:enabled="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:drawableTint="@color/colorPrimary"
+                    android:background="@drawable/round_corner_toggle"
+                    android:inputType="textMultiLine"
+                    android:nextFocusUp="@id/input_status"
+                    android:nextFocusLeft="@id/input_status"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    tools:targetApi="m" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/update_course"
+                android:id="@+id/btn_update_course"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="80dp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content">
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipIconTint">@color/chipIconTint</item>
+
+        <!--enable window content transitions-->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:textViewStyle">@style/AdobeCleanLightTextViewStyle</item>
+        <item name="android:buttonStyle">@style/AdobeCleanLightButtonStyle</item>
+        <item name="android:editTextStyle">@style/AdobeCleanLightEditTextStyle</item>
+        <item name="android:timePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:datePickerDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="RaveAppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="OTPButtonStyle">@style/otpBtnStyle2</item>
+        <item name="PayButtonStyle">@style/payBtnStyle2</item>
+        <item name="OTPHeaderStyle">@style/otpHeaderStyle2</item>
+        <item name="TabLayoutStyle">@style/tabLayoutStyle2</item>
+        <item name="PinHeaderStyle">@style/pinHeaderStyle2</item>
+        <item name="PaymentTileStyle">@style/AdobeCleanLightTextViewStyle</item>
+        <item name="PaymentTileTextStyle">@style/AdobeCleanLightTextViewStyle</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+    </style>
+
+    <style name="payBtnStyle2" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="newPaymentTileStyle">
+        <item name="android:background">#99f9a825</item>
+    </style>
+
+    <style name="pinHeaderStyle2">
+        <item name="android:background">#37474f</item>
+    </style>
+
+    <style name="otpBtnStyle2" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/otp_button_curved_2</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="svdCardsBtnStyle2" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/blue_btn_curved</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="newPaymentTileTextStyle">
+        <item name="android:textColor">#4a4a4a</item>
+    </style>
+
+    <style name="newPaymentTileDividerStyle">
+        <item name="android:textColor">#4a4a4a</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AdobeCleanLightTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/adobe_clean_light</item>
+    </style>
+    <style name="AdobeCleanLightButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/adobe_clean_light</item>
+    </style>
+
+    <style name="AdobeCleanLightEditTextStyle" parent="android:Widget.Holo.EditText">
+        <item name="android:fontFamily">@font/adobe_clean_light</item>
+    </style>
+
+    <style name="NavigationView" >
+        <item name="fontFamily">@font/adobe_clean_light</item>
+    </style>
+
+    <style name="RatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlNormal">#000000</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="PayUMoney" parent="PayumoneyAppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+        <item name="colorButtonNormal">@android:color/holo_orange_dark</item>
+        <item name="alertDialogTheme">@style/AlertDialogStylePayUMoney</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="AlertDialogStylePayUMoney" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/payumoney_text_color</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+</resources>

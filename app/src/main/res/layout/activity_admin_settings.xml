@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AdminSettings">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/app_name_text"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/input_app_name"
+                android:nextFocusLeft="@id/input_app_name"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_app_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_app_version"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/input_app_version"
+                android:nextFocusLeft="@id/input_app_version"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_trial_period"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/trial_period"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="number"
+                android:nextFocusUp="@id/input_trial_period"
+                android:nextFocusLeft="@id/input_trial_period"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_about_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/about_app_text"
+                android:textSize="18sp"
+                android:minHeight="100dp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/input_about_app"
+                android:nextFocusLeft="@id/input_about_app"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/privacy_policy"
+                android:textSize="18sp"
+                android:minHeight="100dp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/input_privacy_policy"
+                android:nextFocusLeft="@id/input_privacy_policy"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_terms_and_conditions"
+                android:textSize="18sp"
+                android:minHeight="100dp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/input_terms_and_conditions"
+                android:nextFocusLeft="@id/input_terms_and_conditions"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_contact_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_telephone"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="number"
+                android:nextFocusUp="@id/input_contact_telephone"
+                android:nextFocusLeft="@id/input_contact_telephone"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_query_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/query_email"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_query_email"
+                android:nextFocusLeft="@id/input_query_email"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_payment_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/payment_option"
+                android:textSize="18sp"
+                android:enabled="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_payment_option"
+                android:nextFocusLeft="@id/input_payment_option"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_currency_symbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/currency_symbol"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_currency_symbol"
+                android:nextFocusLeft="@id/input_currency_symbol"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_currency_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_currency_name"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_currency_name"
+                android:nextFocusLeft="@id/input_currency_name"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/login_logo"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_country_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_country_code"
+                android:textSize="18sp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="text"
+                android:nextFocusUp="@id/input_country_code"
+                android:nextFocusLeft="@id/input_country_code"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chipSpacing="10dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:targetApi="lollipop">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/question_difficulties"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/question_difficulties"
+                android:textSize="18sp"
+                android:minHeight="100dp"
+                android:drawableTint="@color/colorPrimary"
+                android:background="@drawable/round_corner_toggle"
+                android:inputType="textMultiLine"
+                android:nextFocusUp="@id/question_difficulties"
+                android:nextFocusLeft="@id/question_difficulties"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                tools:targetApi="m" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/update"
+            android:id="@+id/btn_update_admin_settings"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="80dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

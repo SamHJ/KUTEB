@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ct7ct7ct7.androidvimeoplayer:library:1.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9058b560018c6d09f9712550fa931af4/jetified-library-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9058b560018c6d09f9712550fa931af4/jetified-library-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9058b560018c6d09f9712550fa931af4/jetified-library-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ct7ct7ct7.androidvimeoplayer/library/1.0.3/4cae757a73d4b6c8ce8b87a830c5e2026eb67c99/library-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ct7ct7ct7.androidvimeoplayer/library/1.0.3/1c8cba2f1be82af465b5419013d0a80611ec3a2f/library-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxWidth="350dp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/video_cardview"
+        android:layout_width="280dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <com.ct7ct7ct7.androidvimeoplayer.view.VimeoPlayerView
+                android:id="@+id/vimeoPlayer"
+                app:topicColor="#00FFFF"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <tcking.github.com.giraffeplayer2.VideoView
+                android:id="@+id/video_view"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:scaleType="fitXY"
+                android:visibility="gone"
+                android:id="@+id/youtube_video_image_placeholder"
+                android:layout_height="200dp"
+                android:src="@drawable/video_placeholder_img"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="end|bottom"
+                android:orientation="horizontal"
+                android:layout_weight=".15"
+                android:gravity="end"
+                android:layout_marginEnd="@dimen/dimen_10dp"
+                android:layout_height="0dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:layout_alignParentStart="true"
+                   android:layout_centerVertical="true"
+                   android:layout_toStartOf="@+id/view_lesson_btn"
+                   android:layout_marginEnd="@dimen/dimen_10dp"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:id="@+id/course_title"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="@string/course_title"
+                       android:textSize="@dimen/dimen_16sp"
+                       android:textStyle="bold"
+                       android:maxLines="1"
+                       android:ellipsize="end"
+                       android:layout_marginStart="@dimen/dimen_10dp"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:id="@+id/lesson_title"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/colorPrimary"
+                       android:text="@string/lesson_title"
+                       android:textSize="@dimen/dimen_12sp"
+                       android:textStyle="bold"
+                       android:maxLines="1"
+                       android:ellipsize="end"
+                       android:layout_marginStart="@dimen/dimen_10dp"/>
+
+               </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:id="@+id/view_lesson_btn"
+                    android:layout_alignParentEnd="true"
+                    app:iconTint="@color/colorPrimary"
+                    android:text="@string/view_lesson"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginEnd="@dimen/dimen_10dp"
+                    android:backgroundTint="@color/white"
+                    android:layout_height="wrap_content"
+                    app:cornerRadius="300dp">
+                </com.google.android.material.button.MaterialButton>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

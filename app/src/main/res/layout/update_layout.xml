@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/update_image"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/update_text"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/intro_title_color"
+        android:textSize="@dimen/dimen_18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/update_available"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="@string/update"
+        android:id="@+id/btn_update_app"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="@dimen/dimen_20dp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="wrap_content">
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="@dimen/dimen_40dp"
+        android:id="@+id/close_dialog_btn"
+        android:layout_gravity="center"
+        app:iconTint="@color/colorPrimary"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        app:icon="@drawable/ic_close"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="500dp">
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>
